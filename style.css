@@ -1,0 +1,32 @@
+body{
+    margin: 0%;
+    padding: 10px;
+    background-color: whitesmoke;
+}
+.container {
+display: grid;
+grid-template-rows: 20% 80%;
+grid-gap: 20px;
+
+}
+.container--header {
+    background-color: blue;
+    color: white;
+    padding: 10px;
+    text-align: left;
+}
+
+.container--download {
+    display: grid;
+    grid-template-rows: auto auto auto;
+    grid-gap: 20px;
+}
+.container--download__item {
+    background-color: white;
+    text-align: center;
+    color: blue;
+    border: 1px solid gray;
+
+
+
+}
